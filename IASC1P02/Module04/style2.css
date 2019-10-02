@@ -1,0 +1,40 @@
+.pdb{
+	border: purple 2px dotted;
+	margin: 1%;
+	padding-top: 15%;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.greentext{
+	color: green;
+	font-size: 10px;
+}
+
+.orangetext{
+	color: orange;
+	font-size: 30px;
+	vertical-align: sub;
+}
+
+.redtext{
+	color: red;
+	font-size: 30px;
+	vertical-align: super;
+}
+
+.purpletext{
+	color: purple;
+	font-size: 9px;
+}
+
+.yellowtext{
+	color: yellow;
+	font-size: 9px;
+}

@@ -1,0 +1,21 @@
+.greenwrapper{
+	background-color: green;
+}
+
+.dbb{
+	margin: 0 20px 0 20px;
+	border: black 4px dashed;
+	padding: 10px 20px 10px 20px;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: #005904;
+}
+
+.purple{
+	color: purple;
+}

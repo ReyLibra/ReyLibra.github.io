@@ -1,0 +1,28 @@
+body{
+	background-color: blue;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sbb{
+	margin: 5% 5% 15% 5%;
+	border: black 4px solid;
+}
+
+.dgb{
+	margin: 20px 20px 20px 20px;
+	border: green 2px dashed;
+}
+
+.wdb{
+	border: white 2px dashed;
+	padding: 20px;
+}
+
+div p{
+	margin: 5px;
+	padding: 0;
+	color: #c024d1;
+}
