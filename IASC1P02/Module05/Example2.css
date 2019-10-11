@@ -1,0 +1,46 @@
+body{
+	background-color: green;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	line-height: 0px;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+#header{
+	background-color: red;
+	width: 1000px;
+	height: 100px;
+	padding-top: 1px;
+}
+#fnav{
+	background-color: pink;
+	width: 300px;
+	height: 100px;
+	padding-top: 1px;
+	float: left;
+}
+#snav{
+	background-color: orange;
+	width: 700px;
+	height: 100px;
+	padding-top: 1px;
+	float: right;
+}
+#body{
+	background-color: blue;
+	width: 1000px;
+	height: 700px;
+	padding-top: 0;
+	clear: both;
+}
+#footer{
+	background-color: yellow;
+	width: 1000px;
+	height: 100px;
+	padding-top: 1px;
+	line-height: 0px;
+}

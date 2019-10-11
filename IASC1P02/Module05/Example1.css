@@ -1,0 +1,25 @@
+body{
+	margin:0 auto;
+}
+h1{
+	color: white;
+	line-height: 3;
+	text-align: center;
+}
+p{
+	color: white;
+}
+#header{
+	background-color: red;
+	height: 100px;
+}
+#body{
+	background-color: green;
+	height: 600px;
+	padding-top:10px;
+}
+#footer{
+	background-color: blue;
+	height: 100px;
+	padding-top:10px;
+}

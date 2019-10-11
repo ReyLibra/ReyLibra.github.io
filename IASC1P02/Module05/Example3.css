@@ -1,0 +1,35 @@
+body{
+	margin: 0.5%;
+}
+#wrapper{
+	background-color:green;
+	height:900px;
+}
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+#bbox{
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	padding-top: 1px;
+	float: left;	
+}
+#rbox{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	padding-top: 1px;
+	float: right;
+}
+#ybox{
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 350px;
+}
