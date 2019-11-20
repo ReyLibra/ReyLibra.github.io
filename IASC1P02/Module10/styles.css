@@ -1,0 +1,9 @@
+.container {
+	border: black solid 3px;
+	display: inline-block;
+	padding: 50px 50px 10px 50px;
+}
+
+#Output {
+	text-align:center;
+}
