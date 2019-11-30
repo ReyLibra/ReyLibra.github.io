@@ -1,0 +1,548 @@
+/*Global*/
+body {
+	margin: 0 auto;
+	background-color: darkblue;
+	font-family: serif;
+}
+
+a h4 {
+	text-decoration: none;
+	display: inline-block;
+}
+/*Global*/
+
+/*NaviBar*/
+a {
+	color: rgba(248,248,248,0.8);
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.naviBar {
+	height: 100%;
+	width: 105px;
+	position: fixed;
+	margin-left: 1%;
+	z-index: 2;
+}
+.select {
+	border-right: solid white;
+	padding: 3px 0 3px 3px;
+	position: relative;
+	top: 40%;
+	margin-bottom: 20%;
+}
+.select:hover {
+	background-color: rgba(255,255,255,0.5);
+	transform: translate(5px);
+	border-right: solid black 3px;
+	color: white;
+	padding: 3px 0 3px 6px;
+}
+/*NaviBar*/
+	
+/*Content*/
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.header {
+	background-color: skyblue;
+	width: 100%;
+    background-image: url("images/FGO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	flex: 1 0 auto;
+	position: relative;
+	height: 100vh;
+	transform: translateZ(-0.9px) scale(2);
+	z-index: -1;
+}
+.header2 {
+	background-color: skyblue;
+	width: 100%;
+    background-image: url("images/top3BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	flex: 1 0 auto;
+	position: relative;
+	height: 100vh;
+	transform: translateZ(-0.9px) scale(2);
+	z-index: -1;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+}
+.center2 {
+	display: block;
+	position: relative;
+	left: 39%;
+	top: 120px;
+	text-shadow: 
+		1px  1px     #fff, 
+		-1px  1px     #fff, 
+		1px -1px     #fff, 
+		-1px -1px     #fff,
+		1px  1px 5px #555;
+}
+.galleryCenter {
+	color: white;
+	position: absolute;
+	top: 550px;
+	left: 180px; 
+	text-align: center;
+}
+.galleryHeaderCenter {
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 250px; 
+	text-align: center;
+}
+.okita {
+	display: block;
+	position: absolute;
+	left: 55%;
+	top: 190px;
+	height: 100%;
+}
+.MASHU {
+  display: block;
+  position: absolute;
+  left: 30%;
+  top: 500px;
+  height: 40%;
+}
+.MUSASHI {
+  display: block;
+  position: absolute;
+  left: 40%;
+  top: 490px;
+  height: 40%;
+}
+.content {
+    background-image: url("images/gray.png");
+	display: block;
+	position: relative;
+	background-color: white;
+	border-top: solid black 6px;
+	z-index: 1;
+}
+.divBuster {
+	/*background-color: #efd5f2;
+    background-image: url("images/gray.png");*/
+    background-size: cover;
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.divBusterIMG1 {
+    background-image: url("images/merlin.png");
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: 50% 100%;
+	height: 500px;
+	width: 550px;
+	position: absolute;
+	left: -10%;
+	bottom: -33px;
+	transform: translateZ(-0.1px);
+	z-index: -1;
+}
+.divBusterDivider {
+	background-color: Darkred;
+    background-image: url("images/red2.png");
+	height: 100px;
+	width: 1200px;
+	position: absolute;
+	right: -6%;
+	top: 370px;
+	box-shadow: 0 10px 10px 0px rgba(48,48,48,0.7);
+}
+.divMarginB {
+    background-image: url("images/backing2.gif");
+	margin: 0 auto;
+	height: 100%;
+	width: 70%;
+	border: solid darkgray 3px;
+	box-shadow: 0px 0px 10px 10px rgba(48,48,48,0.7);
+	position: relative;
+	z-index: 1;
+}
+.divArts {
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.divArtsIMG1 {
+    background-image: url("images/tamamo.png");
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: 50% 100%;
+	height: 400px;
+	width: 500px;
+	position: absolute;
+	right: -10%;
+	bottom: -34px;
+	transform: translateZ(-0.1px);
+	z-index: -1;
+}
+.divArtsDivider {
+	background-color: darkblue;
+    background-image: url("images/blue2.png");
+	background-repeat: repeat;
+	height: 100px;
+	width: 1200px;
+	position: absolute;
+	right: -6%;
+	top: 370px;
+	box-shadow: 0 10px 10px 0px rgba(48,48,48,0.7);
+}
+.divMarginA {
+    background-image: url("images/backing2.gif");
+	margin: 0 auto;
+	height: 100%;
+	width: 70%;
+	border: solid darkgray 3px;
+	box-shadow: 0px 0px 10px 10px rgba(48,48,48,0.7);
+	position: relative;
+	z-index: 1;
+}
+.divQuick {
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.divQuickIMG1 {
+    background-image: url("images/skadi.png");
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: 50% 100%;
+	height: 400px;
+	width: 500px;
+	position: absolute;
+	left: -10%;
+	bottom: -34px;
+	transform: translateZ(-0.1px);
+	z-index: -1;
+}
+.divQuickDivider {
+	background-color: darkgreen;
+    background-image: url("images/green2.png");
+	height: 100px;
+	width: 1200px;
+	position: absolute;
+	right: -6%;
+	top: 370px;
+	box-shadow: 0 10px 10px 0px rgba(48,48,48,0.7);
+}
+.divMarginQ {
+    background-image: url("images/backing2.gif");
+	margin: 0 auto;
+	height: 100%;
+	width: 70%;
+	border: solid darkgray 3px;
+	box-shadow: 0px 0px 10px 10px rgba(48,48,48,0.7);
+	position: relative;
+	z-index: 1;
+}
+.breaker {
+	height: 150px;
+	position: relative;
+	visibility: hidden;
+}
+.slideshow-containerFromLeft {
+	width: 600px;
+	position: absolute;
+	top: 70px;
+	left: 400px;
+	background: #f1f1f1;
+	border: gold 2px solid;
+	border-radius: 25px 0 25px 0;
+}
+.slideshow-containerFromRight {
+	width: 600px;
+	position: absolute;
+	top: 70px;
+	right: 400px;
+	background: #f1f1f1;
+	border: gold 2px solid;
+	border-radius: 25px 0 25px 0;
+}
+.mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+.dot-container {
+	text-align: center;
+	padding: 20px;
+	background: #ddd;
+	border-radius: 25px 0 25px 0;
+}
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+#block {  
+	background: rgba(0,0,0,0.8);
+	height: 100vh;
+	width: 40%;
+	position: absolute;
+	right: 150px;
+	border-right: black solid 5px;
+	border-left: black solid 5px;
+}
+.col {
+	background: rgba(0,0,0,0.8);
+	height: 100vh;
+	width: 20%;
+	position: absolute;
+	left: 300px;
+	border-right: black solid 5px;
+	border-left: black solid 5px;
+}
+.thumbnail {
+	margin-top: 25px;
+	position: relative;
+	top: 25px;
+	filter: grayscale(100%);
+}
+.thumbnail:hover {
+	margin-top: 25px;
+	position: relative;
+	top: 25px;
+	filter: grayscale(0%);
+}
+.thumbnailActive {
+	margin-top: 25px;
+	position: relative;
+	top: 25px;
+	filter: grayscale(0%);
+	border: 1px white solid;
+}
+#top3Viewer {
+	width: 50%;
+	position: absolute;
+	top: 70px;
+	right: 0px;
+	z-index: 3;
+}
+.servant {
+	width: 100%;
+	position: absolute;
+	top: 70px;
+	z-index: 3;
+}
+.servantProfile {
+	width: 30%;
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	color: white;
+}
+.servantSelector {
+	background-color: rgba(0,0,0,0.8);
+	filter: grayscale(100%);
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 460px;
+	color: white;
+}
+.servantSelector:hover {
+	background-color: rgba(0,0,0,0.8);
+	filter: grayscale(0%);
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 400px;
+	color: white;
+}
+.servantSelectorActive {
+	background-color: rgba(0,0,0,0.8);
+	filter: grayscale(0%);
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 400px;
+	color: white;
+	border: white solid 1px;
+}
+#okitaSelector {
+    background-image: url("images/okita.png");
+	background-size: 300%;
+	background-repeat: no-repeat;
+    background-position: 50% 10%;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	left: 75px;
+	border-radius: 25px 0 0 0;
+}
+#hokusaiSelector {
+    background-image: url("images/hokusai.png");
+	background-size: 300%;
+	background-repeat: no-repeat;
+    background-position: 40% 10%;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	left: 200px;
+}
+#mashuSelector {
+    background-image: url("images/mash.png");
+	background-size: 300%;
+	background-repeat: no-repeat;
+    background-position: 80% 35%;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	left: 325px;
+	border-radius: 0 25px 0 0;
+}
+.title {
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 10px;
+	border-radius: 25px 0 0 0;
+	border: black solid 3px;
+}
+.flavour1 {
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	width: 101%;
+	padding: 10px;
+	border-radius: 0 0 25px 0;
+	border: white solid 1px;
+}
+.flavour2 {
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	width: 101%;
+	padding: 10px;
+	border-radius: 0 0 25px 0;
+	border: white solid 1px;
+}
+.flavour3 {
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+	width: 101%;
+	padding: 10px;
+	border-radius: 0 0 25px 0;
+	border: white solid 1px;
+}
+#flavourOkita {
+	display: block;
+	width: 100%;
+	padding: 10px
+}
+#flavourHokusai {
+	display: none;
+	width: 100%;
+	padding: 10px
+}
+#flavourMashu {
+	display: none;
+	width: 100%;
+	padding: 10px
+}
+#expandedImg {
+	position:absolute;
+	top: 150px;
+}
+/*Content*/
+
+/*Footer*/
+.footer {
+	background-color: black;
+	height: 265px;
+	width: 100%;
+	position: relative;
+}
+#clock {
+	color: white;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.socialMedia {
+	position: absolute;
+	height: 100%;
+	width: 70px;
+	right: 200px;
+}
+.icon {
+	margin-top: 20px;
+	width: 80%;
+}
+.footerText1 {
+	color: black;
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border-radius: 25px 25px 0 25px;
+	top: 30px;
+	left: 50px;
+}
+.footerText2 {
+	color: black;
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border-radius: 25px 25px 25px 0;
+	top: 65px;
+	left: 515px;
+}
+.footerIMG {
+    background-image: url("images/mashu.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	bottom: 0px;
+	left: 300px;
+	transform: scaleX(-1);
+}
+/*Footer*/
