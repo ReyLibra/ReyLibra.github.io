@@ -1,0 +1,281 @@
+body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	/*border: 3px solid #f1f1f1;*/
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #cc0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	border: 3px solid white;
+	border-radius: 30px;
+}
+
+.whiteText{
+	color: white;
+}
+
+.greyText{
+	color: grey;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	width: auto;
+	margin-top: 30px;
+	background-color: #f44336;
+	float: left;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.student {
+	float: Left;
+	margin-left: 10px;
+	margin-top: 45px;
+	background-color: #cc0000;
+	padding: 10px;
+	color: white;
+}
+
+span.teacher {
+	float: right;
+	margin-right: 10px;
+	margin-top: 45px;
+	background-color: #cc0000;
+	padding: 10px;
+	color: white;
+}
+
+span.psw {
+	float: left; 
+	padding-left: 10px;
+	padding-top: 45px;
+	padding: 10px;
+}
+
+.logoHeader {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 85px;
+	overflow: hidden;
+	color: white;
+	line-height: 160%;
+}
+
+.headerDivider {
+	margin: 0 auto;
+	border: 1px black solid;
+	width: 95%;
+}
+
+img.headimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 105%;
+	padding-top: 5px;
+}
+
+.mainContainer {
+	height: 550;
+}
+
+.loginPanel {
+	background-color: #cc0000;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 35%;
+	height: 550px;
+}
+
+.loginPanelContainer {
+	margin: 0px 15% 0px 15%;
+	position: relative;
+	display: inline-block;
+}
+
+.welcomePanel {
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 65%;
+}
+
+.shadowing {
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.80);
+}
+
+.welcomePanel-01 {
+	background-image: url(loginImages/Brock1.jpg);
+	background-color: lightgrey;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px -80px;
+	height: 550px;
+	width: 100%;
+	position: relative;
+}
+.mainAreaMargin {
+	position: relative;
+	margin: 0 auto;
+	height: 550px;
+}
+
+.mainAreaMargin:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.warning {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: #fff9d6;
+	padding: 5px;
+}
+
+.divider {
+	padding-top: 25px;
+	position: relative;
+	background-color: #ededed;
+	margin: 40px 0px 20px 0px;
+	height: 300px;
+}
+
+.divPan {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.divText {
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.icon-1 {
+	background-image: url(loginImages/BrockBookIcon.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+
+.centeringText {
+	text-align: center;
+}
+
+.footer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: black;
+	text-align: left;
+	color: white;
+	height: 400px;
+	border-top: #cc0000 solid 20px;
+}
+
+.panel-1 {
+	padding-left: 200px;
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	line-height: 60%;
+	float: left;
+	margin-top: 50px;
+}
+
+.panel-2 {
+	display: inline-block;
+	position: absolute;
+	right: 75px;
+	bottom: 100px;
+}
+
+.footerSM {
+	display: inline-block;
+	position: absolute;
+	right: 75px;
+	bottom: 200px;
+	width: 300px;
+}
+
+.icons {
+	width: 75px;
+}
+
+@media screen and (max-width: 1250px) {
+	.panel {
+		width: 48%;
+		margin: 0px 1% 0px 1%;
+	}
+	
+	.loginPanel {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.welcomePanel {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.welcomePanel-01 {
+		background-size: 100% auto;
+	}
+}
+@media screen and (max-width: 820px) {
+	.welcomePanel {
+		margin: 0 auto;
+		
+	}
+	.welcomePanel-01 {
+		display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.panel {
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+}
